@@ -73,9 +73,7 @@ Customers → Orders → Order Items → Payments & Shipping → Business Insigh
 
 ### 🗺️ ERD Diagram
 
-<p align="center">
-  <img src="./Amazon_ERD.png" alt="Amazon ERD" width="900"/>
-</p>
+![ERD Diagram](Amazon_ERD.pgerd.png)
 
 ---
 
