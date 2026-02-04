@@ -184,5 +184,3 @@ Amazon-sales-analysis/
 Data Analyst • Business Intelligence Analyst • SQL Developer • Data Engineer
 
 ---
-
-## ⭐ If you found this useful, give it a star!
