@@ -73,9 +73,9 @@ Customers → Orders → Order Items → Payments & Shipping → Business Insigh
 
 ### 🗺️ ERD Diagram
 
-> 📌 Export your `Amazon_ERD.pgerd` as an image and place it in the repo, then update the path below.
-
-![ERD Diagram](./images/amazon_erd.png)
+<p align="center">
+  <img src="./Amazon_ERD.png" alt="Amazon ERD" width="900"/>
+</p>
 
 ---
 
