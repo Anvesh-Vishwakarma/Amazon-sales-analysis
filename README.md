@@ -137,25 +137,33 @@ Customers → Orders → Order Items → Payments & Shipping → Business Insigh
 
 ---
 
-## 📂 Project Structure
+## Project Overview: SQL-Driven Business Analysis for an E-Commerce Platform
 
-Amazon-sales-analysis/
-│
-├── Schemas.sql # Database schema and table creation scripts
-├── Amazon SQL Script.sql # Analytical SQL queries
-├── Amazon_ERD.pgerd # ERD design file
-│
-├── category.csv
-├── customers.csv
-├── inventory.csv
-├── order_items.csv
-├── orders.csv
-├── payments.csv
-├── products.csv
-├── sellers.csv
-└── shipping.csv # Raw datasets
+This project involved building a comprehensive SQL database for an e-commerce platform similar to Amazon, aimed at analyzing sales, customer behavior, product trends, and monitoring inventory. The dataset includes multiple tables, each serving different aspects of the business:
 
+**Dataset Overview:**
+* The project uses 9 tables: Customers, Products, Categories, Sellers, Orders, Order Items, Shipping, Payments, and Inventory.
+* Relationships were established through primary and foreign keys to ensure data integrity and enable complex queries.
+  
+**Key Analytical Goals**
+* Evaluate sales trends, customer purchasing behavior, and product performance.
+* Monitor inventory levels to prevent stock shortages and optimize supply chain management.
+* Analyze customer returns and seller performance to enhance operational efficiency.
 
+**Database Design:**
+* The database mirrors Amazon's workflow with parent-child relationships, linking key tables like Customers, Sellers, and Orders.
+* The design allows for thorough analysis of operations across various departments.
+
+**Initial Setup & Data Import Process:**
+* Data was imported from 9 CSV files into the Amazon_Db database, followed by adding primary keys and foreign key constraints.
+* Attention was given to the integrity of the relationships between the tables, such as linking Products ↔ Categories and Orders ↔ Customers.
+
+**Skills Demonstrated:**
+* **Database Design & Integrity Management:** Ensured proper schema design, data integrity, and optimization of table structures.
+* **Data Cleaning & Filtering:** Employed techniques like NULLIF() and COALESCE() for data cleaning and error handling.
+* **Advanced Querying & Business Intelligence:** Used aggregations, window functions, and CTEs for complex analysis of sales, revenue, and customer trends.
+* **Customer & Seller Performance Analysis:** Identified high-value customers and evaluated seller performance with rankings.
+* **Sales & Revenue Insights:** Analyzed product sales, category contributions, return rates, and profit margins.
 ---
 
 ## 📊 Business Questions Solved
