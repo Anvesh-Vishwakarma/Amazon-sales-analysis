@@ -223,7 +223,4 @@ This project involved building a comprehensive SQL database for an e-commerce pl
 ✔ Understanding of e-commerce data models  
 ✔ Experience with performance analysis and reporting queries  
 
-**Ideal for roles:**  
-Data Analyst • Business Intelligence Analyst • SQL Developer • Data Engineer
-
 ---
